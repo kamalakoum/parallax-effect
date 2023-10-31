@@ -1,6 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.fast {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    gap: 10px;
+    padding: 10px;
+}
+
+.fast .info-trailer-container {
+    height: calc(100% - 31px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.fast h2 {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.fast p {
+    width: 500px;
+}
+
+.fast h2::before {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    background-color: white;
+    height: 3px;
+    width: 100%;
+}
+
+.fast .trailer {
+    width: 500px;
+    height: 294px;
+}
+
+.fast .trailer iframe {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
 }
