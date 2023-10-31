@@ -17,14 +17,27 @@ body {
     background-attachment: fixed;
     gap: 10px;
     padding: 10px;
+    position: relative;
 }
 
 .fast .info-trailer-container {
-    height: calc(100% - 31px);
+    background-color: #00000082;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+
+@media (max-width:992px) {
+    .fast .info-trailer-container {
+        flex-direction: column
+    }
 }
 
 .fast h2 {
