@@ -39,10 +39,14 @@
    background-size: cover;
  }
 
- .second {
+ .fast-part1 {
+    background-image: url("../Assets/fast&furious1.jpg");
+  }
+
+ .fast-part2 {
    background-image: url("../Assets/fast&furious2.jpg");
  }
 
- .third {
+ .fast-part3 {
    background-image: url("../Assets/fast&furious3.jpg");
  }
