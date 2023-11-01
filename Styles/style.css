@@ -1,4 +1,28 @@
- .fast-part4 {
+  header {
+    padding: 60px;
+    text-align: center;
+    background: black;
+    color: gray;
+    font-size: 30px;
+  }
+ 
+  h1 {
+    font-size: 48px;
+  }
+ 
+  .fast-part1 {
+     background-image: url("../Assets/fast&furious1.jpg");
+   }
+ 
+  .fast-part2 {
+    background-image: url("../Assets/fast&furious2.jpg");
+  }
+ 
+  .fast-part3 {
+    background-image: url("../Assets/fast&furious3.jpg");
+  }
+  
+  .fast-part4 {
    text-align: center;
    background-image: url('../Assets/fast&furious4\(2\).jpg');
  }
@@ -8,45 +32,7 @@
    background-image: url('../Assets/fast&furious5_1.jpg');
  }
 
-
  .fast-part6 {
    text-align: center;
    background-image: url('../Assets/fast&furious6_1.jpg');
- }
-
- header {
-   padding: 60px;
-   text-align: center;
-   background: black;
-   color: gray;
-   font-size: 30px;
- }
-
- h1 {
-   font-size: 48px;
- }
-
- .parallax {
-   /* The image used */
-   background-image: url("../Assets/fast&furious1.jpg");
-   /* Set a specific height and width */
-   min-height: 100vh;
-   width: 100%;
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
-
- .fast-part1 {
-    background-image: url("../Assets/fast&furious1.jpg");
-  }
-
- .fast-part2 {
-   background-image: url("../Assets/fast&furious2.jpg");
- }
-
- .fast-part3 {
-   background-image: url("../Assets/fast&furious3.jpg");
  }
